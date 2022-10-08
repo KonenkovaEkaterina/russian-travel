@@ -1,0 +1,25 @@
+.header__lang-link {
+	margin: 0;
+	padding: 0px 18px 0px 0px;
+
+	Width: 30px;
+	Height: 28px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 20px;
+
+	text-align: right;
+	/* text-decoration-line: underline; */
+
+	color: #FFFFFF;
+
+	display: flex;
+	align-items: flex-end;
+}
+
+.header__lang:last-of-type {
+	padding: 0px;
+}
