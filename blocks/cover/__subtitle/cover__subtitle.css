@@ -1,8 +1,19 @@
 .cover__subtitle {
-	margin: 0;
-	padding-top: 32px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 429px;
 
 	width: 360px;
+	height: 66px;
+
+	position: absolute;
+
+	/* Центруруем абсолютный блок */
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	/* -------------------------- */
 
 	font-family: 'Inter';
 	font-style: normal;
@@ -10,10 +21,41 @@
 	font-size: 18px;
 	line-height: 22px;
 	/* or 122% */
-
+	color: #FFFFFF;
 	text-align: center;
 
-	color: #FFFFFF;
 
-	z-index: 2;
+}
+
+@media (max-width: 1279px) and (min-width: 1025px) {
+	.cover__title {
+		padding-top: 379px;
+
+	}
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+	.cover__subtitle {
+		padding-top: 299px;
+	}
+}
+
+@media (max-width: 768px) and (min-width: 426px) {
+	.cover__subtitle {
+		padding-top: 119px;
+		width: 288px;
+		height: 48px;
+		font-size: 14px;
+		line-height: 16px;
+	}
+}
+
+@media (max-width: 425px) {
+	.cover__subtitle {
+		padding-top: 119px;
+		width: 288px;
+		height: 48px;
+		font-size: 14px;
+		line-height: 16px;
+	}
 }

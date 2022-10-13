@@ -1,9 +1,9 @@
 .header__lang-link {
 	margin: 0;
-	padding: 0px 18px 0px 0px;
+	padding-right: 18px;
 
-	Width: 30px;
-	Height: 28px;
+	width: 30px;
+	height: 28px;
 
 	font-family: 'Inter';
 	font-style: normal;
@@ -12,14 +12,47 @@
 	line-height: 20px;
 
 	text-align: right;
-	/* text-decoration-line: underline; */
-
 	color: #FFFFFF;
 
 	display: flex;
 	align-items: flex-end;
 }
 
-.header__lang:last-of-type {
-	padding: 0px;
+.header__lang-link:last-of-type {
+	padding-right: 0;
+}
+
+@media (min-width: 1280px) {
+	.header__lang-link {
+		width: 30px;
+		height: 28px;
+	}
+}
+
+@media (max-width: 1279px) and (min-width: 1025px) {
+	.header__lang-link {
+		width: 30px;
+		height: 28px;
+	}
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+	.header__lang-link {
+		width: 30px;
+		height: 28px;
+	}
+}
+
+@media (max-width: 768px) and (min-width: 426px) {
+	.header__lang-link {
+		width: 22px;
+		height: 20px;
+	}
+}
+
+@media (max-width: 425px) {
+	.header__lang-link {
+		width: 22px;
+		height: 20px;
+	}
 }

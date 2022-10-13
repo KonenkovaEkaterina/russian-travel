@@ -1,12 +1,60 @@
 .phofo-grid {
 	margin: 0px auto;
-	padding-top: 92px;
-
-	width: 1184px;
-	/* height: 671px; */
 
 	display: grid;
-	gap: 16px;
-	grid-template-columns: repeat(4, 284px);
-	grid-template-rows: repeat(3, 213px);
+}
+
+@media (min-width: 1280px) {
+	.phofo-grid {
+		width: 1184px;
+		padding-top: 92px;
+
+		grid-template-columns: repeat(4, 284px);
+		grid-template-rows: repeat(3, 213px);
+		column-gap: 16px;
+		row-gap: 16px;
+	}
+}
+
+@media (max-width: 1279px) and (min-width: 1025px) {
+	.phofo-grid {
+		width: 92.5%;
+		padding-top: 92px;
+
+		grid-template-columns: repeat(4, 23.99%);
+		column-gap: 1.351%;
+		row-gap: 16px;
+	}
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+	.phofo-grid {
+		width: 90.625%;
+		padding-top: 88px;
+
+		grid-template-columns: repeat(3, 32.33%);
+		column-gap: 1.509%;
+		row-gap: 14px;
+	}
+}
+
+@media (max-width: 768px) and (min-width: 426px) {
+	.phofo-grid {
+		width: 93.75%;
+		padding-top: 64px;
+
+		grid-template-columns: repeat(2, 48.889%);
+		column-gap: 2.222%;
+		row-gap: 16px;
+	}
+}
+
+@media (max-width: 425px) {
+	.phofo-grid {
+		width: 288px;
+		padding-top: 64px;
+
+		grid-template-columns: repeat(1, 100%);
+		row-gap: 12px;
+	}
 }

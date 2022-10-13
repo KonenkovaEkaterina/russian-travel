@@ -1,18 +1,11 @@
 .place__link {
 	margin: 0;
 	padding-top: 12px;
-	/* border: 1px solid yellow; */
 
 	font-family: 'Inter';
 	font-style: normal;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 22px;
-	/* identical to box height, or 122% */
 
 	text-decoration-line: underline;
 
 	color: #FFFFFF;
-
-
 }

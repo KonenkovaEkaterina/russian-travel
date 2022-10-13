@@ -1,10 +1,38 @@
 .intro {
 	margin: 0;
-	/* padding-top: 92px; */
+}
 
-	padding: 92px 0 0 148px;
+@media (min-width: 1280px) {
+	.intro {
+		width: 690px;
+		padding: 92px 0 0 148px;
+	}
+}
 
-	width: 706px;
-	/* height: 453.68px; */
+@media (max-width: 1279px) and (min-width: 1025px) {
+	.intro {
+		width: 53.906%;
+		padding: 92px 0 0 148px;
+	}
+}
 
+@media (max-width: 1024px) and (min-width: 769px) {
+	.intro {
+		width: 93.75%;
+		padding: 88px 24px 0 24px;
+	}
+}
+
+@media (max-width: 768px) and (min-width: 426px) {
+	.intro {
+		width: 90%;
+		padding: 88px 24px 0 24px;
+	}
+}
+
+@media (max-width: 425px) {
+	.intro {
+		width: 90%;
+		padding: 64px 16px 0 16px;
+	}
 }

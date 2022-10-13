@@ -1,13 +1,43 @@
 .header {
-	margin: auto;
-	padding: 28px 48px 0 48px;
+	margin: 0px auto;
 
 	display: flex;
 	justify-content: space-between;
-
-	width: 1184px;
 }
 
-@media screen (max-width: 1184px;){
-	
+@media (min-width: 1280px) {
+	.header {
+		width: 1184px;
+		padding: 28px 48px 0 48px;
+	}
+}
+
+@media (max-width: 1279px) and (min-width: 1025px) {
+	.header {
+		width: 92.5%;
+		padding-top: 28px;
+	}
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+	.header {
+		width: 90.625%;
+		padding-top: 28px;
+	}
+}
+
+@media (max-width: 768px) and (min-width: 426px) {
+	.header {
+		width: 93.75%;
+		height: 42px;
+		padding-top: 16px;
+	}
+}
+
+@media (max-width: 425px) {
+	.header {
+		width: 93.75%;
+		height: 42px;
+		padding-top: 16px;
+	}
 }

@@ -2,16 +2,23 @@
 	margin: 0;
 	padding-top: 33px;
 
-	/* width: 690px;
-	height: 91.68px; */
-
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 12px;
 	line-height: 18px;
-	/* or 150% */
-
 
 	color: #FFFFFF;
+}
+
+@media (max-width: 768px) and (min-width: 426px) {
+	.intro__list {
+		padding-top: 34px;
+	}
+}
+
+@media (max-width: 425px) {
+	.intro__list {
+		padding-top: 34px;
+	}
 }

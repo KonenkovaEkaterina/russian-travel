@@ -1,12 +1,39 @@
 .header__logo {
 	margin: 0;
-	
-	width: 176px;
-	height: 52px;
-	left: 48px;
-	top: 28px;
+	object-fit: cover;
+}
 
-	/* border: 1px solid rgb(4, 255, 0); */
+@media (min-width: 1280px) {
+	.header__logo {
+		width: 176px;
+		height: 52px;
+	}
+}
 
-	background-image: url('../../../images/header__logo.svg');
+@media (max-width: 1279px) and (min-width: 1025px) {
+	.header__logo {
+		width: 176px;
+		height: 52px;
+	}
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+	.header__logo {
+		width: 176px;
+		height: 52px;
+	}
+}
+
+@media (max-width: 768px) and (min-width: 426px) {
+	.header__logo {
+		width: 142px;
+		height: 42px;
+	}
+}
+
+@media (max-width: 425px) {
+	.header__logo {
+		width: 142px;
+		height: 42px;
+	}
 }
