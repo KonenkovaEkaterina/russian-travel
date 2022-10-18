@@ -1,42 +1,49 @@
 .footer__links {
-	margin: 0;
+  margin: 0;
+  padding: 0;
 }
 
 @media (min-width: 1280px) {
-	.footer__links {
-		display: flex;
-		flex-direction: row;
-		padding: 0;
-	}
+  .footer__links {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 @media (max-width: 1279px) and (min-width: 1025px) {
-	.footer__links {
-		display: flex;
-		flex-direction: row;
-	}
+  .footer__links {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {
-	.footer__links {
-		display: flex;
-		flex-direction: row;
-	}
+  .footer__links {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
-@media (max-width: 768px) and (min-width: 426px) {
-	.footer__links {
-		width: 186px;
-		display: flex;
-		flex-direction: column;
-	}
+@media (max-width: 768px) and (min-width: 690px) {
+  .footer__links {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 689px) and (min-width: 426px) {
+  .footer__links {
+    width: 186px;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 
 @media (max-width: 425px) {
-	.footer__links {
-		width: 186px;
-		display: flex;
-		flex-direction: column;
-	}
+  .footer__links {
+    width: 186px;
+    display: flex;
+    flex-direction: column;
+  }
 }

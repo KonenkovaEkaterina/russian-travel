@@ -1,8 +1,6 @@
 .phofo-grid__item {
-	margin: 0;
-	padding: 0;
-
-	object-fit: cover;
-
-	width: 100%;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+  width: 100%;
 }

@@ -1,58 +1,56 @@
 .header__lang-link {
-	margin: 0;
-	padding-right: 18px;
+  margin: 0;
+  padding-right: 18px;
+  width: 30px;
+  font-style: normal;
+  font-weight: 400;
 
-	width: 30px;
-	height: 28px;
-
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 20px;
-
-	text-align: right;
-	color: #FFFFFF;
-
-	display: flex;
-	align-items: flex-end;
+  text-align: right;
+  color: #FFFFFF;
+  display: flex;
+  align-items: flex-end;
 }
 
 .header__lang-link:last-of-type {
-	padding-right: 0;
+  padding-right: 0;
 }
 
 @media (min-width: 1280px) {
-	.header__lang-link {
-		width: 30px;
-		height: 28px;
-	}
+  .header__lang-link {
+    width: 30px;
+    font-size: 24px;
+    line-height: 28px;
+  }
 }
 
 @media (max-width: 1279px) and (min-width: 1025px) {
-	.header__lang-link {
-		width: 30px;
-		height: 28px;
-	}
+  .header__lang-link {
+    width: 30px;
+    font-size: 24px;
+    line-height: 28px;
+  }
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {
-	.header__lang-link {
-		width: 30px;
-		height: 28px;
-	}
+  .header__lang-link {
+    width: 30px;
+    font-size: 24px;
+    line-height: 28px;
+  }
 }
 
 @media (max-width: 768px) and (min-width: 426px) {
-	.header__lang-link {
-		width: 22px;
-		height: 20px;
-	}
+  .header__lang-link {
+    width: 30px;
+    font-size: 24px;
+    line-height: 28px;
+  }
 }
 
 @media (max-width: 425px) {
-	.header__lang-link {
-		width: 22px;
-		height: 20px;
-	}
+  .header__lang-link {
+    width: 22px;
+    font-size: 18px;
+    line-height: 20px;
+  }
 }

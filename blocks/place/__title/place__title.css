@@ -1,53 +1,51 @@
 .place__title {
-	margin: 0;
-	padding: 0;
-
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 900;
-	color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 900;
+  color: #FFFFFF;
 }
 
 .place:first-of-type {
-	padding: 0;
+  padding: 0;
 }
 
 @media (min-width: 1280px) {
-	.place__title {
-		font-size: 72px;
-		line-height: 106%;
-	}
+  .place__title {
+    font-size: 72px;
+    line-height: 106%;
+  }
 }
 
 @media (max-width: 1279px) and (min-width: 1025px) {
-	.place__title {
-		font-size: 72px;
-		line-height: 106%;
-	}
+  .place__title {
+    font-size: 72px;
+    line-height: 106%;
+  }
 }
 
 
 @media (max-width: 1024px) and (min-width: 769px) {
-	.place__title {
-		font-size: 72px;
-		line-height: 106%;
-	}
+  .place__title {
+    font-size: 72px;
+    line-height: 106%;
+  }
 }
 
 
 @media (max-width: 768px) and (min-width: 426px) {
-	.place__title {
-		font-size: 42px;
-		line-height: 110%;
-	}
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+    max-width: 330px;
+  }
 }
 
 
 @media (max-width: 425px) {
-	.place__title {
-		padding-left: 16px;
-
-		font-size: 32px;
-		line-height: 109%;
-	}
+  .place__title {
+    padding-left: 16px;
+    font-size: 32px;
+    line-height: 109%;
+  }
 }

@@ -1,19 +1,27 @@
 .page {
-	margin: 0px auto;
-	padding: 0;
+  margin: 0px auto;
+  padding: 0;
+  max-width: 1280px;
+  min-width: 288px;
+  font-family: 'Inter', 'Arial', sans-serif;
+  background-color: #2A2C2F;
+  /*маштабирование шрифтов*/
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
 
-	max-width: 1280px;
-	min-width: 288px;
+  overflow-x: hidden;
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
 
-	background-color: #2A2C2F;
-
-	/*маштабирование шрифтов*/
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
-
-	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	-moz-text-size-adjust: 100%;
-
-	text-rendering: optimizeLegibility;
+/* Hide scrollbar for Chrome, Safari and Opera */
+.page::-webkit-scrollbar {
+  display: none;
 }

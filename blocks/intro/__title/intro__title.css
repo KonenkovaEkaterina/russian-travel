@@ -1,54 +1,45 @@
 .intro__title {
-	margin: 0;
-	padding: 0;
-
-	width: 690px;
-	height: 59.08px;
-
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 900;
-
-	color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  width: 690px;
+  font-style: normal;
+  font-weight: 900;
+  color: #FFFFFF;
 }
 
 @media (min-width: 1280px) {
-	.intro__title {
-		font-size: 54px;
-		line-height: 58px;
-	}
+  .intro__title {
+    font-size: 54px;
+    line-height: 58px;
+  }
 }
 
 @media (max-width: 1279px) and (min-width: 1025px) {
-	.intro__title {
-		font-size: 54px;
-		line-height: 58px;
-	}
+  .intro__title {
+    font-size: 54px;
+    line-height: 58px;
+  }
 }
 
-@media (max-width: 1024px) and (min-width: 769px) {
-	.intro__title {
-		font-size: 54px;
-		line-height: 58px;
-	}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .intro__title {
+    font-size: 54px;
+    line-height: 58px;
+  }
 }
 
-@media (max-width: 768px) and (min-width: 426px) {
-	.intro__title {
-		width: 250px;
-		height: 70px;
-
-		font-size: 32px;
-		line-height: 35px;
-	}
+@media (max-width: 767px) and (min-width: 426px) {
+  .intro__title {
+    width: 250px;
+    font-size: 32px;
+    line-height: 35px;
+  }
 }
 
 @media (max-width: 425px) {
-	.intro__title {
-		width: 288px;
-		height: 70px;
-
-		font-size: 32px;
-		line-height: 35px;
-	}
+  .intro__title {
+    width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+  }
 }
