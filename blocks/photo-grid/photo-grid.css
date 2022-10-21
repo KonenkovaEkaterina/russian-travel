@@ -1,10 +1,10 @@
-.phofo-grid {
+.photo-grid {
   margin: 0px auto;
   display: grid;
 }
 
 @media (min-width: 1280px) {
-  .phofo-grid {
+  .photo-grid {
     width: 1184px;
     padding-top: 92px;
     grid-template-columns: repeat(4, 284px);
@@ -15,7 +15,7 @@
 }
 
 @media (max-width: 1279px) and (min-width: 1025px) {
-  .phofo-grid {
+  .photo-grid {
     width: 92.5%;
     padding-top: 92px;
     grid-template-columns: repeat(4, 23.99%);
@@ -25,7 +25,7 @@
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {
-  .phofo-grid {
+  .photo-grid {
     width: 90.625%;
     padding-top: 92px;
     grid-template-columns: repeat(3, 32.33%);
@@ -35,7 +35,7 @@
 }
 
 @media (max-width: 768px) and (min-width: 450px) {
-  .phofo-grid {
+  .photo-grid {
     width: 93.75%;
     padding-top: 88px;
     grid-template-columns: repeat(2, 48.889%);
@@ -45,7 +45,7 @@
 }
 
 @media (max-width: 449px) and (min-width: 426px) {
-  .phofo-grid {
+  .photo-grid {
     width: 95.83%;
     padding-top: 64px;
     grid-template-columns: repeat(2, 48.889%);
@@ -55,7 +55,7 @@
 }
 
 @media (max-width: 425px) {
-  .phofo-grid {
+  .photo-grid {
     width: 288px;
     padding-top: 64px;
     grid-template-columns: repeat(1, 100%);

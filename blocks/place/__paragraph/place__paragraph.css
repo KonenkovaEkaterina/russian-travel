@@ -4,7 +4,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
-  color: #FFFFFF;
+  color: #FFF;
 }
 
 .place__paragraph:first-of-type {
@@ -13,21 +13,18 @@
 
 @media (min-width: 1280px) {
   .place__paragraph {
-    font-size: 18px;
     padding-top: 26px;
   }
 }
 
 @media (max-width: 1279px) and (min-width: 1025px) {
   .place__paragraph {
-    font-size: 18px;
     padding-top: 26px;
   }
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {
   .place__paragraph {
-    font-size: 18px;
     padding-top: 26px;
   }
 }

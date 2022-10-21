@@ -10,3 +10,9 @@
     margin-right: auto;
   }
 }
+
+@media (max-width: 320px) {
+  .place__paragraphs {
+    width: calc(288/320*100%);    /*288*/
+  }
+}

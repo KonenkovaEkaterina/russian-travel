@@ -22,9 +22,10 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__item/intro__item.css);
+@import url(../blocks/intro/__span-accent/intro__span-accent.css);
 
-@import url(../blocks/phofo-grid/phofo-grid.css);
-@import url(../blocks/phofo-grid/__item/phofo-grid__item.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
@@ -45,3 +46,5 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__links/footer__links.css);
+
+@import url(../blocks/link/link.css);

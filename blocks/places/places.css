@@ -24,16 +24,23 @@
   }
 }
 
-@media (max-width: 768px) and (min-width: 426px) {
+@media (max-width: 768px) and (min-width: 520px) {
   .places {
     width: 93.75%;
     padding-top: 88px;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 519px) {
   .places {
-    width: 320px;
+    width: calc(288/320*100%);/*288*/
+    padding-top: 64px;
+  }
+}
+
+@media (max-width: 350px) {
+  .places {
+    width: 100%;
     padding-top: 64px;
   }
 }

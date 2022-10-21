@@ -4,11 +4,10 @@
   width: 30px;
   font-style: normal;
   font-weight: 400;
-
   text-align: right;
-  color: #FFFFFF;
   display: flex;
   align-items: flex-end;
+  text-decoration: none;
 }
 
 .header__lang-link:last-of-type {
@@ -17,7 +16,6 @@
 
 @media (min-width: 1280px) {
   .header__lang-link {
-    width: 30px;
     font-size: 24px;
     line-height: 28px;
   }
@@ -25,7 +23,6 @@
 
 @media (max-width: 1279px) and (min-width: 1025px) {
   .header__lang-link {
-    width: 30px;
     font-size: 24px;
     line-height: 28px;
   }
@@ -33,7 +30,6 @@
 
 @media (max-width: 1024px) and (min-width: 769px) {
   .header__lang-link {
-    width: 30px;
     font-size: 24px;
     line-height: 28px;
   }
@@ -41,7 +37,6 @@
 
 @media (max-width: 768px) and (min-width: 426px) {
   .header__lang-link {
-    width: 30px;
     font-size: 24px;
     line-height: 28px;
   }
@@ -54,3 +49,4 @@
     line-height: 20px;
   }
 }
+

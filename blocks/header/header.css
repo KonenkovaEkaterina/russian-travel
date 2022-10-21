@@ -29,13 +29,20 @@
 @media (max-width: 768px) and (min-width: 426px) {
   .header {
     width: 93.75%;
-    padding-top: 16px;
+    padding-top: 28px;
   }
 }
 
 @media (max-width: 425px) {
   .header {
     width: 288px;
+    padding-top: 16px;
+  }
+}
+
+@media (max-width:320px) {
+  .header {
+    width: calc(288/320*100%);/*288*/
     padding-top: 16px;
   }
 }

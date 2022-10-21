@@ -4,35 +4,35 @@
 
 @media (min-width: 1280px) {
   .intro {
-    width: 690px;
-    padding: 92px 0 0 148px;
+    width: 984px;
+    padding-top: 92px;
   }
 }
 
 @media (max-width: 1279px) and (min-width: 1025px) {
   .intro {
-    width: 53.906%;
-    padding: 92px 0 0 148px;
+    width: 76.88%;
+    padding-top: 92px;
   }
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {
   .intro {
-    width: 93.75%;
-    padding: 92px 0 0 48px;
+    width: 90.625%;
+    padding-top: 92px;
   }
 }
 
 @media (max-width: 768px) and (min-width: 426px) {
   .intro {
-    max-width: 93.75%;
     padding-top: 88px;
+    width: calc(720*100%/768);
   }
 }
 
 @media (max-width: 425px) {
   .intro {
-    width: 288px;
-    padding-top: 68px;
+    width: calc(288/320*100%);/*288*/
+    padding-top: 64px;
   }
 }

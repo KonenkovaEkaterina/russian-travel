@@ -38,7 +38,7 @@
 @media (max-width: 768px) and (min-width: 690px) {
   .footer {
     width: 93.75%;
-    padding-top: 123px;
+    padding-top: 88px;
     padding-bottom: 24px;
     display: flex;
     flex-direction: row;
@@ -58,8 +58,16 @@
 
 @media (max-width: 425px) {
   .footer {
-    margin: 0 auto;
     width: 288px;
+    padding-top: 64px;
+    padding-bottom: 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer {
+    margin: 0 auto;
+    width: calc(288 / 320 * 100%);/*288px;*/
     padding-top: 64px;
     padding-bottom: 24px;
   }

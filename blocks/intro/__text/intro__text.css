@@ -5,7 +5,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 163%;
-  color: #FFFFFF;
+  color: #FFF;
 }
 
 @media (min-width: 1280px) {
@@ -27,12 +27,6 @@
 }
 
 @media (max-width: 768px) and (min-width: 426px) {
-  .intro__text {
-    width: 100%;
-  }
-}
-
-@media (max-width: 425px) {
   .intro__text {
     width: 100%;
   }
