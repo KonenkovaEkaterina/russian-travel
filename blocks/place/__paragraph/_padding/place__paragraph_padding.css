@@ -1,0 +1,5 @@
+@media (max-width: 425px) {
+  .place__paragraph_padding{
+    padding-right: 15px;
+  }
+}

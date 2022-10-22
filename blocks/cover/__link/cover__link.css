@@ -1,6 +1,5 @@
 .cover__link {
   margin: 0px auto;
-  /* min-width: 320px; */
   min-width: 288px;
   text-decoration: none;
   background-image: url(../../../images/cover__overlay.jpg);
