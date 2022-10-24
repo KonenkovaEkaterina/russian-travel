@@ -8,6 +8,7 @@
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__langs/header__langs.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
+@import url(../blocks/header/__langs-item/header__langs-item.css);
 
 @import url(../blocks/content/content.css);
 
@@ -32,7 +33,6 @@
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
-@import url(../blocks/place/__paragraph/_padding/place__paragraph_padding.css);
 @import url(../blocks/place/__paragraphs/place__paragraphs.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);

@@ -1,52 +1,17 @@
 .header__lang-link {
   margin: 0;
-  padding: 0 18px 0 0;
-  width: 30px;
   font-style: normal;
   font-weight: 400;
   text-align: right;
-  display: flex;
-  align-items: flex-end;
   color: #FFF;
-}
-
-.header__lang-link:last-of-type {
-  padding: 0;
-}
-
-@media (min-width: 1280px) {
-  .header__lang-link {
-    font-size: 24px;
-    line-height: 28px;
-  }
-}
-
-@media (max-width: 1279px) and (min-width: 1025px) {
-  .header__lang-link {
-    font-size: 24px;
-    line-height: 28px;
-  }
-}
-
-@media (max-width: 1024px) and (min-width: 769px) {
-  .header__lang-link {
-    font-size: 24px;
-    line-height: 28px;
-  }
-}
-
-@media (max-width: 768px) and (min-width: 426px) {
-  .header__lang-link {
-    font-size: 24px;
-    line-height: 28px;
-  }
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration-line: none
 }
 
 @media (max-width: 425px) {
   .header__lang-link {
-    width: 22px;
     font-size: 18px;
     line-height: 20px;
   }
 }
-
